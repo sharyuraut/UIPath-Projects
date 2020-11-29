@@ -1,18 +1,19 @@
 {
-  "name": "FlipkartApplication",
-  "description": "Blank Process",
+  "name": "ChatBot",
+  "description": "News agent",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.9.3]",
     "UiPath.Mail.Activities": "[1.9.3]",
     "UiPath.System.Activities": "[20.10.1]",
-    "UiPath.UIAutomation.Activities": "[20.10.6]"
+    "UiPath.UIAutomation.Activities": "[20.10.6]",
+    "UiPath.WebAPI.Activities": "[1.6.0]"
   },
   "webServices": [],
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "20.10.2.0",
-  "projectVersion": "1.0.0",
+  "projectVersion": "1.0.1",
   "runtimeOptions": {
     "autoDispose": false,
     "isPausable": true,
@@ -43,7 +44,7 @@
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "2285ffdb-78dd-483a-8acd-c2938cb582f1",
+      "uniqueId": "9c8b1a01-0a8a-41e4-b62e-fa98a6199311",
       "input": [],
       "output": []
     }
